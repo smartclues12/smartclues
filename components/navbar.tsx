@@ -44,7 +44,7 @@ export function Navbar() {
       <div className="container mx-auto px-4 flex justify-between items-center">
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-2">
-          <div className="h-9 w-9 rounded-lg  flex items-center justify-center text-white font-bold shadow-lg">
+          <div className="h-10 w-10 rounded-lg  flex items-center justify-center text-white font-bold shadow-lg">
             <img src="logo.png" alt="" />
           </div>
         </Link>
