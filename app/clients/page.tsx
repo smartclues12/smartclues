@@ -1,5 +1,6 @@
 import { ClientsSection } from "@/components/clients-section";
 import { TestimonialsSection } from "@/components/testimonials-section";
+import { ClientsCarousel } from "@/components/clients-carousel"
 
 export default function ClientsPage() {
   return (
