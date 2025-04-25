@@ -22,7 +22,7 @@ export function Footer() {
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-2 mb-6">
               <div className="h-8 w-8 rounded-lg bg-gradient-to-tr from-purple-600 to-purple-800 flex items-center justify-center text-white font-bold shadow-lg">
-                S
+                <img src="logo.png" alt="" />
               </div>
               <span className="text-white text-xl font-semibold">
                 Smartclues<span className="text-purple-500">Tech</span>
