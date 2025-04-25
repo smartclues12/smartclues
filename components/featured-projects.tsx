@@ -54,7 +54,7 @@ export function FeaturedProjects() {
     {
       title: "Cyber Security",
       description:
-        "End-to-end GST system implementation with automated compliance reporting. This solution simplified tax filing and reduced manual errors significantly.",
+        "End-to-end cybersecurity infrastructure deployment with automated compliance monitoring and incident response capabilities. This solution strengthened network defenses and reduced security vulnerabilities significantly.",
       // client: "GST Project Client",
       year: "2021",
       stats: [
