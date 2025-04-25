@@ -10,32 +10,32 @@ export function TestimonialsSection() {
     {
       quote:
         "Smartclues Technologies has been instrumental in optimizing our medical coding processes. Their attention to detail and commitment to quality is exceptional.",
-      name: "John Smith",
+      name: "Geetha Lakshmi",
       title: "CTO, Clarus",
-      initials: "JS",
+      initials: "GL",
     },
     {
       quote:
         "The team at Smartclues delivered our project on time and with exceptional quality. Their expertise in medical coding has significantly improved our operational efficiency.",
-      name: "Sarah Johnson",
+      name: "Chocko Valliappa",
       title: "Operations Director, VEE Tech Healthcare",
-      initials: "SJ",
+      initials: "CV",
     },
     {
       quote:
         "Working with Smartclues has been a game-changer for our digital forensics needs. Their technical knowledge and problem-solving abilities are outstanding.",
-      name: "Michael Chen",
+      name: "Abhishek kumar",
       title: "Security Lead, Digital Forensics Client",
-      initials: "MC",
+      initials: "AK",
     },
     {
       quote:
         "The GST system implemented by Smartclues has streamlined our compliance processes and saved us countless hours of manual work. Highly recommended!",
-      name: "Priya Patel",
+      name: "Prashant Patil",
       title: "Finance Manager, GST Project Client",
       initials: "PP",
     },
-  ]
+  ];
 
   return (
     <section className="py-20 bg-gradient-to-b from-black to-purple-950/20">
