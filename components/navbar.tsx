@@ -47,9 +47,6 @@ export function Navbar() {
           <div className="h-9 w-9 rounded-lg  flex items-center justify-center text-white font-bold shadow-lg">
             <img src="logo.png" alt="" />
           </div>
-          <span className="text-white text-xl font-semibold hidden sm:block">
-            Smartclues<span className="text-purple-500">Tech</span>
-          </span>
         </Link>
 
         {/* Desktop Navigation */}
