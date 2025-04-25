@@ -92,7 +92,7 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  href="/projects"
+                  href="/careers"
                   className="text-zinc-400 hover:text-purple-400 transition-colors flex items-center"
                 >
                   Projects
