@@ -122,20 +122,18 @@ export function Footer() {
             <h3 className="text-white font-medium mb-4">Services</h3>
             <ul className="space-y-3">
               <li className="text-zinc-400 hover:text-purple-400 transition-colors flex items-center">
-                Product Development
+               Revenue Cycle Management ( Health care ) 
               </li>
               <li className="text-zinc-400 hover:text-purple-400 transition-colors flex items-center">
-                Testing & Security
+                Digital Forensic Services 
               </li>
               <li className="text-zinc-400 hover:text-purple-400 transition-colors flex items-center">
-                Web Development
+                VAPT & WAPT
               </li>
               <li className="text-zinc-400 hover:text-purple-400 transition-colors flex items-center">
-                Blockchain Services
+                IT Development
               </li>
-              <li className="text-zinc-400 hover:text-purple-400 transition-colors flex items-center">
-                Medical Coding
-              </li>
+             
             </ul>
           </div>
 
