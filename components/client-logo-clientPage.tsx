@@ -43,7 +43,7 @@ export function ClientLogosClientPage() {
               {clients.map((client, index) => (
                 <div
                   key={`${client.name}-1-${index}`}
-                  className="mx-6 py-2 px-6 flex items-center justify-center min-w-[180px] h-20 rounded-lg bg-zinc-900/50 border border-zinc-800/50 backdrop-blur-sm glass-effect"
+                  className="mx-6 py-4 px-6 flex items-center justify-center min-w-[180px] h-20 rounded-lg bg-zinc-900/50 border border-zinc-800/50 backdrop-blur-sm glass-effect"
                 >
                   <div className="relative w-full h-12">
                     <Image
