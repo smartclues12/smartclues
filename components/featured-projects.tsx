@@ -22,10 +22,10 @@ export function FeaturedProjects() {
 
   const projects = [
     {
-      title: "Medical Coding Full Project",
+      title: "Medical Coding",
       description:
         "Comprehensive medical coding solution with 99.9% accuracy and 100% production efficiency. This project streamlined the entire coding process for a major healthcare provider.",
-      client: "Clarus",
+      // client: "Clarus",
       year: "2022",
       stats: [
         { label: "Accuracy", value: "99.9%" },
@@ -37,10 +37,10 @@ export function FeaturedProjects() {
       caseStudyUrl: "/case-studies/medical-coding",
     },
     {
-      title: "Digital Forensics Solution",
+      title: "Digital Forensics Solutions",
       description:
         "Advanced digital forensics solution for secure data recovery and analysis. This project helped clients recover critical data while maintaining chain of custody.",
-      client: "Digital Forensics Client",
+      // client: "Digital Forensics Client",
       year: "2022",
       stats: [
         { label: "Recovery Rate", value: "98.5%" },
@@ -52,17 +52,17 @@ export function FeaturedProjects() {
       caseStudyUrl: "/case-studies/digital-forensics",
     },
     {
-      title: "GST System Implementation",
+      title: "Cyber Security",
       description:
         "End-to-end GST system implementation with automated compliance reporting. This solution simplified tax filing and reduced manual errors significantly.",
-      client: "GST Project Client",
+      // client: "GST Project Client",
       year: "2021",
       stats: [
         { label: "Compliance", value: "100%" },
         { label: "Processing Time", value: "-60%" },
         { label: "Error Reduction", value: "95%" },
       ],
-      tags: ["GST", "Compliance", "Automation"],
+      tags: ["Security", "Compliance", "Automation"],
       color: "from-emerald-600/20 to-emerald-800/20",
       caseStudyUrl: "/case-studies/gst-implementation",
     },
@@ -177,7 +177,7 @@ export function FeaturedProjects() {
                         {projects[activeIndex].title}
                       </div>
                       <div className="text-base sm:text-lg md:text-xl text-zinc-400 mb-4 sm:mb-6">
-                        {projects[activeIndex].client}
+                        {projects[activeIndex]?.client}
                       </div>
 
                       <div className="flex justify-center gap-2 sm:gap-4 mb-4 sm:mb-8">
