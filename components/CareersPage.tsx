@@ -35,7 +35,7 @@ export function CareersPage() {
       title: "Junior Medical Coder",
       department: "Healthcare",
       location: "Hyderabad, Capital Park 4th floor, Madhapur",
-      type: "Full-time | Entry-level",
+      type: "Full-time",
 
       description:
         "Join our growing healthcare team! We're looking for a detail-oriented and motivated Junior Medical Coder to help ensure accurate coding and billing practices.",
@@ -59,7 +59,7 @@ export function CareersPage() {
       id: 2,
       title: "Senior Medical Coder",
       department: "Healthcare",
-      location: "Remote / Hybrid",
+      location: "Hyderabad, Capital Park 4th floor, Madhapur",
       type: "Full-time",
       description:
         "Seeking an experienced Medical Coder (1+ year) to join our dynamic healthcare team!",
@@ -83,8 +83,8 @@ export function CareersPage() {
       id: 3,
       title: "Group Coach",
       department: "Fitness & Wellness",
-      location: "Remote / Hybrid",
-      type: "Full-time / Part-time",
+      location: "Hyderabad, Capital Park 4th floor, Madhapur",
+      type: "Full-time",
       description:
         "We're looking for an energetic Group Coach with 1+ year of experience to lead fun, effective sessions and inspire our community!",
       responsibilities: [
