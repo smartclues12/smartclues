@@ -1,16 +1,17 @@
 "use client";
 
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { Card } from "@/components/ui/card";
 import Image from "next/image";
-import { Linkedin, Mail } from "lucide-react";
+import { Linkedin, Mail, ChevronDown, ChevronUp } from "lucide-react";
 
 export function TeamSection() {
   const leadership = [
     {
       name: "Ashok Pabbathi",
       role: "Founder & CEO",
-      bio: "I'm Ashok Pabbathi, the Founder and CEO of Smartclues Technologies LLP. Along with my brother Naveen, I started this company (2019) with a vision to empower businesses through innovative digital solutions driven by AI, automation, and blockchain.",
+      bio: "Ashok Naga Sai Pabbathi the visionary founder of SmartClues Technologies LLP, is a seasoned Cybersecurity Expert and Digital Forensic Expert with over 11 years of handson experience in securing digital infrastructures and solving complex digital crimes. With a profound expertise in defending against ever-evolving cyber threats and conducting meticulous digital investigations, Ashok Pabbathi has made it their mission to help organizations protect their most valuable assets: data, systems, and reputations. With an educational background in Cyber Security & Digital Forensic specialized training in ethical hacking, penetration testing, incident response, and cyber forensics, Under Ashok Naga Sai's leadership, SmartClues Technologies LLP is focused on delivering the highest level of cybersecurity protection and digital forensics services Along with US Revenue Cycle Management Services . Their work not only helps businesses defend against cyber threats but also assists in recovering from security breaches and providing actionable insights during investigations.",
       image: "/placeholder.svg?height=400&width=400",
       social: {
         linkedin: "https://uk.linkedin.com/in/ashok-pabbathi-5b2209107",
@@ -20,7 +21,7 @@ export function TeamSection() {
     {
       name: "Naveen Pabbathi",
       role: "Co-founder & COO",
-      bio: "I'm Naveen Pabbathi, Co-founder and COO of Smartclues Technologies LLP. My role is centered around driving business growth, building client relationships, and identifying the right projects that align with our vision for innovation and impact.",
+      bio: "Naveen Naga Sai , the Co-Founder of SmartClues Technologies LLP, is a highly experienced Revenue Cycle Management (RCM) Expert with a deep understanding of healthcare finance and operations. With over 6 years of hands-on experience in optimizing financial processes for healthcare organizations, Naveen Naga sai has been instrumental in streamlining revenue cycles and driving financial success for healthcare providers. With a strong background in healthcare administration, billing operations, and insurance processes, Naveen has dedicated their career to enhancing the efficiency and accuracy of RCM systems. Their approach blends industry best practices with innovative technology solutions, enabling healthcare providers to improve collections, minimize denials, and ensure compliance with ever-changing regulations. Naveen's expertise spans from managing end-to-end revenue cycles to implementing advanced technologies such as automation, AI-driven analytics, and electronic health records (EHR) systems that significantly improve operational efficiency and patient satisfaction. Their strategic approach has helped numerous healthcare organizations reduce administrative burdens, improve cash flow, and boost financial performance. Under Naveen's leadership, SmartClues Technologies LLP has pioneered innovative RCM solutions that not only maximize revenue but also improve the patient experience by providing greater transparency and streamlining billing processes. Naveen is passionate about empowering healthcare providers to focus on patient care while ensuring financial health through efficient and accurate revenue cycle Management",
       image: "/placeholder.svg?height=400&width=400",
       social: {
         linkedin: "https://in.linkedin.com/in/naveen-pabbathi-46b575146",
@@ -70,6 +71,16 @@ export function TeamSection() {
     //   },
     // },
   ];
+
+  // Track expanded state for each leader
+  const [expandedLeaders, setExpandedLeaders] = useState({});
+
+  const toggleBio = (name) => {
+    setExpandedLeaders(prev => ({
+      ...prev,
+      [name]: !prev[name]
+    }));
+  };
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -136,9 +147,30 @@ export function TeamSection() {
                       <p className="text-purple-400 text-xs sm:text-sm mb-3 md:mb-4">
                         {member.role}
                       </p>
-                      <p className="text-zinc-400 text-xs sm:text-sm leading-relaxed">
-                        {member.bio}
-                      </p>
+                      <div className="text-zinc-400 text-xs sm:text-sm leading-relaxed">
+                        {expandedLeaders[member.name] ? (
+                          <p>{member.bio}</p>
+                        ) : (
+                          <p>{member.bio.substring(0, 200)}...</p>
+                        )}
+                        
+                        <button 
+                          onClick={() => toggleBio(member.name)}
+                          className="mt-2 flex items-center gap-1 text-purple-400 hover:text-purple-300 transition-colors text-xs font-medium"
+                        >
+                          {expandedLeaders[member.name] ? (
+                            <>
+                              <span>Read Less</span>
+                              <ChevronUp className="h-3 w-3" />
+                            </>
+                          ) : (
+                            <>
+                              <span>Read More</span>
+                              <ChevronDown className="h-3 w-3" />
+                            </>
+                          )}
+                        </button>
+                      </div>
                     </div>
 
                     <div className="flex gap-2 mt-auto pt-4">
