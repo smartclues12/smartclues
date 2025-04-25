@@ -9,10 +9,10 @@ export function ProjectsSection() {
   const projects = {
     medical: [
       {
-        title: "Medical Coding Full Project",
+        title: "Medical Coding",
         description:
           "Comprehensive medical coding solution with 99.9% accuracy and 100% production efficiency. This project streamlined the entire coding process for a major healthcare provider.",
-        client: "Clarus",
+        // client: "Clarus",
         year: "2022",
         stats: [
           { label: "Accuracy", value: "99.9%" },
@@ -50,10 +50,10 @@ export function ProjectsSection() {
     ],
     digital: [
       {
-        title: "Digital Forensics Solution",
+        title: "Digital Forensics Solutions",
         description:
           "Advanced digital forensics solution for secure data recovery and analysis. This project helped clients recover critical data while maintaining chain of custody.",
-        client: "Digital Forensics Client",
+        // client: "Digital Forensics Client",
         year: "2022",
         stats: [
           { label: "Recovery Rate", value: "98.5%" },
@@ -63,17 +63,17 @@ export function ProjectsSection() {
         tags: ["Digital Forensics", "Security", "Data Recovery"],
       },
       {
-        title: "GST System Implementation",
+        title: "Cyber Security",
         description:
           "End-to-end GST system implementation with automated compliance reporting. This solution simplified tax filing and reduced manual errors significantly.",
-        client: "GST Project Client",
+        // client: "GST Project Client",
         year: "2021",
         stats: [
           { label: "Compliance", value: "100%" },
           { label: "Processing Time", value: "-60%" },
           { label: "Error Reduction", value: "95%" },
         ],
-        tags: ["GST", "Compliance", "Automation"],
+        tags: ["Security", "Compliance", "Automation"],
       },
     ],
     it: [
