@@ -27,7 +27,7 @@ export function AboutTimeline() {
       year: "2021",
       title: "Expanded Service Offerings",
       description:
-        "Expanded our services to include digital forensics, GST systems, and blockchain solutions, broadening our expertise.",
+        "Expanded our services to include digital forensics, and blockchain solutions, broadening our expertise.",
     },
     {
       year: "2022",
