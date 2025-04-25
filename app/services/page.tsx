@@ -226,15 +226,6 @@ const ServiceCard = ({ service, isHovered, onHover, onLeave }) => (
           }}
           transition={{ duration: 0.3 }}
         >
-          <Button
-            className="w-full bg-gradient-to-r from-purple-600 to-purple-800 hover:from-purple-700 hover:to-purple-900 text-white group"
-            asChild
-          >
-            <Link href={`/services/${service.id}`}>
-              Learn More
-              <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-            </Link>
-          </Button>
         </motion.div>
       </div>
     </CardHoverEffect>
