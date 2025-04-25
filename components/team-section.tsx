@@ -9,8 +9,8 @@ export function TeamSection() {
   const leadership = [
     {
       name: "Ashok Pabbathi",
-      role: "CEO & Co-founder",
-      bio: "I'm Ashok Pabbathi, the CEO and Co-founder of Smartclues Technologies LLP. Along with my brother Naveen, I started this company (2019) with a vision to empower businesses through innovative digital solutions driven by AI, automation, and blockchain.",
+      role: "Founder & CEO",
+      bio: "I'm Ashok Pabbathi, the Founder and CEO of Smartclues Technologies LLP. Along with my brother Naveen, I started this company (2019) with a vision to empower businesses through innovative digital solutions driven by AI, automation, and blockchain.",
       image: "/placeholder.svg?height=400&width=400",
       social: {
         linkedin: "https://uk.linkedin.com/in/ashok-pabbathi-5b2209107",
@@ -19,8 +19,8 @@ export function TeamSection() {
     },
     {
       name: "Naveen Pabbathi",
-      role: "Co-founder & Managing Director",
-      bio: "I'm Naveen Pabbathi, Co-founder and Managing Director of Smartclues Technologies LLP. My role is centered around driving business growth, building client relationships, and identifying the right projects that align with our vision for innovation and impact.",
+      role: "Co-founder & COO",
+      bio: "I'm Naveen Pabbathi, Co-founder and COO of Smartclues Technologies LLP. My role is centered around driving business growth, building client relationships, and identifying the right projects that align with our vision for innovation and impact.",
       image: "/placeholder.svg?height=400&width=400",
       social: {
         linkedin: "https://in.linkedin.com/in/naveen-pabbathi-46b575146",
