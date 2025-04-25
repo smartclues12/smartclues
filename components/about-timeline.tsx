@@ -15,7 +15,7 @@ export function AboutTimeline() {
       year: "2019",
       title: "Company Founded",
       description:
-        "Smartclues Technologies was founded by Ashok Pabbathi and Naveen Kumar with a vision to deliver innovative digital solutions.",
+        "Smartclues Technologies was founded by Ashok Pabbathi and Naveen Pabbathi with a vision to deliver innovative digital solutions.",
     },
     {
       year: "2020",
