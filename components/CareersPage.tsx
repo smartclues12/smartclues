@@ -20,7 +20,9 @@ import {
   Stethoscope,
   ClipboardList,
   Dumbbell,
+  SquareActivity,
 } from "lucide-react";
+
 
 export function CareersPage() {
   const [expandedJob, setExpandedJob] = useState(null);
@@ -82,7 +84,7 @@ export function CareersPage() {
     {
       id: 3,
       title: "Group Coach",
-      department: "Fitness & Wellness",
+      department: "Health Care",
       location: "Hyderabad, Capital Park 4th floor, Madhapur",
       type: "Full-time",
       description:
@@ -101,7 +103,7 @@ export function CareersPage() {
         "Relevant fitness certifications",
         "Ability to motivate and inspire participants",
       ],
-      icon: <Dumbbell className="h-6 w-6 text-purple-400" />,
+      icon: <SquareActivity className="h-6 w-6 text-purple-400" />,
     },
   ];
 
